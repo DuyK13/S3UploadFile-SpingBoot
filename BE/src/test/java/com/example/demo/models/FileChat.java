@@ -7,7 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class MyFile {
+public class FileChat {
+    // Tên
     private String fileName;
-    private String fileURL;
+    // Loại
+    private String fileType;
+    // Nơi lưu cuộc trò chuyện giữa 2 người or nhóm
+    private String fileFolder;
 }
